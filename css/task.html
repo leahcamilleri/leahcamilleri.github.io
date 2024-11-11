@@ -1,74 +1,45 @@
-body {
-    background-color: #bdc3c7;
-}
+<!DOCTYPE html>
+<html>
 
-h1 {
-    color: #9b59b6;
-}
+<head>
+    <meta charset="UTF-8">
+    <title>Selectors Exercise</title>
+    <link rel="stylesheet" type="text/css" href="selectors.css">
+</head>
 
-h2 {
-    color: orange;
-}
+<body>
+    <h1>Selectors Exercise</h1>
 
-li {
-    color: #3498db;
-}
+    <p>PARAGRAPH NOT INSIDE A DIV</p>
 
-p {
-    background-color: yellow;
-}
+    <div>
+        <p class="hello">I am a paragraph with a class</p>
+        <p id="special">I am a paragraph with an ID</p>
+        <h2>I am an awesome h2</h2>
+        <p>Nam est odio, interdum vel risus sagittis, vehicula tincidunt odio. Integer non blandit ligula. Quisque
+            vulputate pellentesque erat laoreet scelerisque.</p>
+    </div>
 
-input {
-    border: 3px solid red;
-}
+    <div>
+        <h2>Things I need to do</h2>
+        <ul>
+            <li>Walk Dog <input type="checkbox" checked></li>
+            <li>Feed Dog <input type="checkbox" checked></li>
+            <li>Wash Dog <input type="checkbox"></li>
+        </ul>
+    </div>
 
-.hello {
-    background-color: white;
-}
+    <div>
+        <h2>I am another awesome h2</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ultricies euismod enim, vel hendrerit dui
+            rhoncus et. Ut eleifend varius urna, nec dignissim tellus dapibus et. Aliquam vel bibendum magna.
+            <em>Example emphasized text</em>.</p>
+        <p>I'm the second paragraph inside this div!</p>
+    </div>
 
-#special {
-    border: 2px solid rgb(0, 0, 255);
-}
+    <p>PARAGRAPH NOT INSIDE A DIV</p>
 
-div p {
-    font-size: 25px;
-}
-
-input[type="text"] {
-    background-color: gray;
-}
-
-div:nth-of-type(3) p {
-    background-color: pink;
-}
-
-div:nth-of-type(3) p:nth-of-type(2) {
-    border: 5px solid white;
-}
-
-div:nth-of-type(3) em {
-    color: white;
-    font-size: 20px;
-}
-
-input[type="checkbox"]:checked {
-    margin-left: 50px;
-}
-
-label {
-    text-transform: uppercase;
-}
-
-#special::first-letter {
-    color: green;
-    font-size: 100px;
-}
-
-h1:hover {
-    color: blue;
-}
-
-a:visited {
-    color: gray;
-}
-
+    <div>
+        <h2>A less awesome h2</h2>
+        <p>Proin suscipit augue maximus mauris laoreet, et tempor arcu tristique. Phasellus sit amet ultricies lectus.
+    
