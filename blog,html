@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Days in Venice</title>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Source Sans Pro', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #354b63;
+        }
+        .container {
+            width: 70%;
+            margin: 50px auto;
+            background-color: white;
+            padding: 20px;
+            border: 1px solid #bdc7cf;
+            border-radius: 8px;
+        }
+        .blog-post {
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+        }
+        .date {
+            color: #3098dd;
+            letter-spacing: 2px;
+            font-size: 14px;
+            text-transform: uppercase;
+        }
+        h2 {
+            color: #354b63;
+        }
+        p {
+            font-size: 16px;
+            line-height: 1.6;
+        }
+        hr {
+            border: 0;
+            border-top: 1px solid #bdc7cf;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="blog-post">
+            <div class="date">NOVEMBER 10, 2024</div>
+            <h2>Exploring Venice for the First Time</h2>
+            <p>My first day in Venice was nothing short of magical. I arrived early in the morning and, as soon as I stepped out of the train station, the sight of the Grand Canal took my breath away. The water shimmered in the sunlight, and the gondolas glided by peacefully. I walked along the narrow streets, getting lost in the maze of canals and bridges. There was a sense of timelessness in the air. The buildings, with their intricate architecture, told stories of a rich history.</p>
+            <hr>
+        </div>
+
+        <div class="blog-post">
+            <div class="date">NOVEMBER 11, 2024</div>
+            <h2>Getting Lost in the Canals</h2>
+            <p>Today, I decided to embrace the fact that Venice is a city meant to be explored by foot and water. I took a vaporetto (water bus) to some of the more distant islands, like Murano, famous for its glass-blowing traditions. The ride was relaxing, and the view of the Venetian lagoon was stunning. Afterward, I wandered through more of Venice's labyrinthine streets and alleyways. It was almost impossible not to get lost, but each wrong turn led to something new and beautiful. The serenity of the canals surrounded by quaint buildings was something I could never tire of.</p>
+            <hr>
+        </div>
+
+        <div class="blog-post">
+            <div class="date">NOVEMBER 12, 2024</div>
+            <h2>Enjoying Venetian Cuisine</h2>
+            <p>Venice is a city that is not only a feast for the eyes but for the stomach as well. Today I had the chance to try traditional Venetian dishes, and they were absolutely delicious. I started with *sarde in saor*, a sweet-and-sour sardine dish that was full of flavor. For lunch, I indulged in a plate of *risotto al nero di seppia* (squid ink risotto) and paired it with a glass of local Prosecco. In the evening, I enjoyed a quiet dinner by the canal at a charming little restaurant, where I had fresh seafood pasta. The atmosphere was perfect—soft lights, gentle waves, and the hum of Venice in the background.</p>
+            <hr>
+        </div>
+
+    </div>
+
+</body>
+</html>
